@@ -2,6 +2,7 @@
 	Program is for demonstrating Single dimensional array,multidimensional array and associative array
 -->
 <?php
+echo "<pre>";
 echo "<b>Array Demo</b>";
 $a=array("item1","item2","item3");
 echo "<br /><br />Single Dimensional Array ";
@@ -19,4 +20,5 @@ $c=array("first"=>"item1",
 		);
 echo "<br /><br />Associative Array ";
 print_r($c);
+var_dump($c);
 ?>
